@@ -1,0 +1,2 @@
+# CompX
+Electronic component manager
