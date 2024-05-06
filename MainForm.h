@@ -14,7 +14,7 @@ namespace CompX {
 
 		
 	/// <summary>
-	/// Description résumée de MainForm
+	/// Description rÃ©sumÃ©e de MainForm
 	/// </summary>
 	public ref class MainForm : public System::Windows::Forms::Form
 	{
@@ -108,7 +108,7 @@ namespace CompX {
 
 	protected:
 		/// <summary>
-		/// Nettoyage des ressources utilisées.
+		/// Nettoyage des ressources utilisÃ©es.
 		/// </summary>
 		~MainForm()
 		{
@@ -152,14 +152,14 @@ private: System::Windows::Forms::ToolStripMenuItem^ addToolStripMenuItem;
 			
 	private:
 		/// <summary>
-		/// Variable nécessaire au concepteur.
+		/// Variable nÃ©cessaire au concepteur.
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-		/// le contenu de cette méthode avec l'éditeur de code.
+		/// MÃ©thode requise pour la prise en charge du concepteur - ne modifiez pas
+		/// le contenu de cette mÃ©thode avec l'Ã©diteur de code.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -487,7 +487,7 @@ private: System::Windows::Forms::ToolStripMenuItem^ addToolStripMenuItem;
 	private: System::Void quitToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 
 
-		if (MessageBox::Show("Remeber to save before quiting !", "Quit", MessageBoxButtons::OKCancel, MessageBoxIcon::Exclamation) == System::Windows::Forms::DialogResult::OK) {
+		if (MessageBox::Show("Remember to save before quiting !", "Quit", MessageBoxButtons::OKCancel, MessageBoxIcon::Exclamation) == System::Windows::Forms::DialogResult::OK) {
 			QuitApp();
 		}
 	}
